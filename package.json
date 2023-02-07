@@ -1,0 +1,34 @@
+{
+    "name": "arb-crosschain-lib",
+    "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "solhint": "solhint \"contracts/**/*.sol\"",
+        "solhint:fix": "solhint \"contracts/**/*.sol\" --fix",
+        "lint": "eslint \"{scripts,test,tasks}/**/*.ts\"",
+        "lint:fix": "eslint \"{scripts,test,tasks}/**/*.ts\" --fix",
+        "format": "prettier --write \"contracts/**/*.sol\" \"{scripts,test,tasks}/**/*.ts\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@arbitrum/sdk": "^3.0.0",
+        "@openzeppelin/contracts": "^4.8.1",
+        "@typescript-eslint/eslint-plugin": "^5.51.0",
+        "@typescript-eslint/parser": "^5.51.0",
+        "dotenv": "^16.0.3",
+        "eslint": "^8.33.0",
+        "hardhat": "^2.12.6",
+        "prettier": "^2.8.3",
+        "prettier-plugin-solidity": "^1.1.2",
+        "solhint": "^3.3.8"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^2.0.1"
+    }
+}
